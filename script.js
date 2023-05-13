@@ -1,10 +1,17 @@
 // complete the given function
 
 function palindrome(str){
+	let arr=str.split(" ");
+    let s="";
+	 arr.forEach((str)=>{
+		  if(str!=''){
+           s=s+str;
+		  }
+	 })
 let start=0;
-let end=str.length-1;
+let end=s.length-1;
 	while(start<end){
-		if(str[start]!=str[end]){
+		if(s[start]!=s[end]){
 			return false;
 		}
 		start++;
