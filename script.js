@@ -1,6 +1,7 @@
 // complete the given function
 
 function palindrome(str){
+	str=str.toLowerCase();
 	let arr=str.split(" ");
     let s="";
 	 arr.forEach((str)=>{
