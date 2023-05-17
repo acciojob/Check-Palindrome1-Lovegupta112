@@ -9,7 +9,7 @@ function palindrome(str){
  //           s=s+str;
 	// 	  }
 	//  })
-		s=str.toLowerCase();
+	let s=str.toLowerCase();
 let start=0;
 let end=s.length-1;
 	while(start<end){
